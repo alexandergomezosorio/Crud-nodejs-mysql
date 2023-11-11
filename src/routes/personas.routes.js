@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { pool } from '../database.js'
+import { pool } from '../database.js';
 
 const router = Router();
 
@@ -13,3 +13,4 @@ router.get('/list', async (req, res) => {
 });
 
 export default router;
+
